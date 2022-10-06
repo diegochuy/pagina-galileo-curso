@@ -1,0 +1,141 @@
+body{
+    background-color: lightgray;
+ 
+}
+
+div{
+    width: 100%;
+    height: 230px;
+    border: 2px solid black;
+}
+
+ol{
+    float: left;
+}
+
+ol li{
+    padding: 5px;
+    margin: 2px;
+    background-color: green;
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 300px;
+}
+
+ol li a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: dimgray;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* ------------------------------aquí empieza */
+#etapa1{
+    background-color: green;
+
+    background-image: url('http://www.galileo.edu/wp-content/uploads/2010/12/logo-ug.png');
+
+    height: 700px;
+
+    background-repeat: no-repeat;
+
+    background-position-x: right;
+    background-position-y: bottom;
+
+    background-position: left top;
+
+    background-attachment: fixed; /* scroll | fixed */
+
+    background-size: contain;
+
+}
+
+#etapa2{
+    background-color: red;
+    background-color: rgb(200, 150, 240);
+    background-color: rgba(254, 254, 254, 0.5);
+
+    /* background-color: hsl(hue, saturation, lightness);*/
+    /* background-color: hsla(hue, saturation, lightness, alpha); */
+
+    background-color: #f4fa;
+    opacity: 0.8;
+
+}
+
+#etapa3{
+    background-image: linear-gradient(red, yellow,pink);
+    background-image: linear-gradient(#ff4,rgb(100,200,100));
+    background-image: linear-gradient(-45deg, gray,blue);
+    background-image: linear-gradient(to left,  gray,blue, gray);
+    
+}
+
+#etapa4{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+    box-shadow: 10px 15px 20px rgba(0, 0, 255, 0.4); /* inset */
+}
+
+#etapa4 p{
+    color: red;
+    text-shadow: 3px 3px 1px blue;
+}
+
+#etapa5{
+    width: 100px;
+    height: 100px;
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+    margin-bottom: 100px;
+
+    background-color: wheat;
+    box-shadow: 1px 2px 2px red;
+
+    /* ----------- */
+    /* transform: rotate(-20deg);
+    transform: translate(100px, 100px);
+ */
+    /* transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transform: scale(1.5,1.5); */
+
+    transform: skewX(5deg);
+    transform: skewY(5deg);
+    transform: skew(5deg,5deg);
+
+}
+
+#etapa6{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+
+    
+    background-color: rgba(255, 0, 0, 0.7);
+
+    transition: width 0.8s;
+    transition: 0.2s;
+}
+
+#etapa6:hover{
+    /* width: 150px;
+    background-color: blue;
+     */
+    /* box-shadow: 5px 5px 10px black; */
+    transform: scale(1.05,1.05);
+    background-color: red;
+    
+
+}
